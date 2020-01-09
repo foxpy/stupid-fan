@@ -1,5 +1,5 @@
-#ifndef _FAN_STATE
-#define _FAN_STATE
+#ifndef _STUPIDFAN_STATE_H
+#define _STUPIDFAN_STATE_H
 
 enum state_t {
 	SILENT,
@@ -13,8 +13,8 @@ enum state_t {
 	DISENGAGED,
 	AUTO
 };
-
 typedef enum state_t state_t;
 
 state_t speed_from_therm(int therm);
+
 #endif
